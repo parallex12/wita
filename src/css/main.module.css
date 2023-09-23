@@ -1,5 +1,170 @@
-.Amaara {
+.container {
   width: 100vw;
   height: 100vh;
   background-color: black;
+}
+.heroSectionWrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 5vh 5vw;
+}
+.Navbar {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuIcon {
+  cursor: pointer;
+}
+.logoWrapper {
+  width: 5vw;
+  height: 40%;
+}
+.logo {
+  width: 100%;
+  height: 100%;
+}
+.modelWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 30vw;
+  padding-left: 7vw;
+}
+.Model {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 5vh;
+}
+.contentWrapper {
+}
+.ModelCol {
+  display: flex;
+  align-items: center;
+}
+.TitleCol {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 12vw;
+}
+.HeroTitle span {
+  color: #b0f542;
+  font-size: 120px;
+  line-height: 110px;
+  letter-spacing: 4px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.HeroTitle div {
+  color: #ffffff;
+  font-size: 120px;
+  line-height: 110px;
+  letter-spacing: 4px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.bottomMenuWrapper {
+  width: 80vw;
+  min-height: 15vh;
+  padding-top: 5vh;
+}
+.bottomMenuCol {
+  border-top: 1px solid #b0f542;
+  padding: 0;
+}
+.menuWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2vh;
+}
+.menuItem {
+  color: #fff;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.menuItemActive {
+  border: 2px solid #b0f542;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1vh 2vw;
+  border-radius: 2px;
+}
+.Menu {
+  padding: 5vh 5vw;
+  width: 100vw;
+  height: 100vh;
+  background-color: #618f1777;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0vw;
+  z-index: 9999999999;
+  transition: 1s ease-in-out;
+  border-radius: 0vw;
+}
+
+.MenuHide {
+  padding: 5vh 5vw;
+  width: 0vw;
+  height: 10vh;
+  background-color: #618f1754;
+  position: absolute;
+  left: -30vw;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 9999999999;
+  transition: 1s ease-in-out;
+  transform: rotate(30deg);
+  border-radius: 100vw;
+}
+.menuContent {
+  z-index: 888888888;
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+}
+.menuLeftWrapper {
+  width: 100%;
+  min-height: 20vh;
+  padding-top: 5vh;
+}
+.menuLeftItem {
+  width: 100%;
+  height: 7vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 1vw;
+  margin-bottom: 3vh;
+  cursor: pointer;
+}
+.menuLeftItem span {
+  color: white;
+  font-size: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 3px;
+}
+.bgLogo {
+  position: absolute;
+  width: 80%;
+  height: 40%;
+  background-image: url("../assets/bgLogo.png");
+  background-position: center;
+  background-size: contain;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  bottom: 24vh;
+  top: 0;
+  background-repeat: no-repeat;
+  margin: auto;
 }
